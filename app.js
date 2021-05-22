@@ -356,7 +356,7 @@ function getResults(){
 	time = processTime(timeForm.value);
 
 
-	gphVal = (runVal*3600)/time
+	gphVal = Math.floor((runVal*3600)/time)
 
 
 	console.log(runVal);
